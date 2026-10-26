@@ -12,7 +12,7 @@ line-height: 1.6;
 /* 2. Encabezado */
 .encabezado {
 background-color: #173b67;
-color: #512da8;
+color: #ffffff;
 text-align: center;
 padding: 36px 20px;
 }
@@ -55,6 +55,12 @@ text-decoration: none;
 text-decoration: underline;
 color: #F18805;
 }
+
+.enlace:active {
+transform: scale(0.96);
+color: #9E2A2B;
+}
+
 /* 5. Pie de página */
 .pie {
 text-align: center;
